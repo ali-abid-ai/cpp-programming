@@ -1,81 +1,80 @@
 # C++ Programming
 
-A learning repository for practicing **C++ programming**, strengthening problem-solving skills, and building a foundation in **Data Structures and Algorithms (DSA)**.
+A beginner-friendly learning repository documenting my C++ programming practice as a BS Artificial Intelligence student at Bahauddin Zakariya University (BZU), Multan.
 
-## About This Repository
+The goal is to strengthen programming fundamentals, problem-solving, Object-Oriented Programming (OOP), Data Structures, and Algorithms through small, readable programs.
 
-This repository contains C++ practice code and learning work. It is intended to document progress, reinforce programming concepts, and provide a place to organize exercises and university-related programming projects.
+## Repository structure
 
-## Learning Areas
+```text
+cpp-programming/
+├── basics/
+│   └── hello_world.cpp
+├── oop/
+│   └── student_record.cpp
+├── data-structures/
+│   ├── linked-list/
+│   ├── stacks/
+│   ├── queues/
+│   └── trees/
+├── algorithms/
+│   ├── searching/
+│   └── sorting/
+└── projects/
+```
 
-Topics covered or planned for practice include:
+More topic folders and programs will be added as I study and practise them.
 
-- C++ fundamentals and syntax
-- Variables, data types, operators, and input/output
-- Conditional statements and loops
-- Functions and recursion
-- Arrays and strings
-- Pointers and references
-- Object-Oriented Programming (OOP)
-- Data Structures
-- Algorithms and problem-solving
+## Learning roadmap
 
-> The topics listed above describe the learning roadmap; the actual contents depend on the files added to the repository.
+- [x] Repository setup and C++ learning structure
+- [ ] Variables, data types, operators, and input/output
+- [ ] Conditions, loops, functions, and recursion
+- [ ] Arrays, strings, pointers, and references
+- [ ] Object-Oriented Programming
+- [ ] Linked lists, stacks, queues, and trees
+- [ ] Searching and sorting algorithms
+- [ ] University and personal programming projects
 
-## Getting Started
+The checklist reflects the repository roadmap, not a claim that every topic is already complete.
 
-1. Clone the repository:
+## Compile and run
 
-   ```bash
-   git clone https://github.com/ali-abid-ai/cpp-programming.git
-   ```
+Install a C++ compiler such as GCC (g++).
 
-2. Open the project folder in your preferred code editor, such as Visual Studio Code or Code::Blocks.
+**Compile:**
+```bash
+g++ -std=c++17 -Wall -Wextra -pedantic basics/hello_world.cpp -o hello_world
+```
 
-3. Compile a C++ source file using a C++ compiler:
+**Run on Windows:**
+```bash
+hello_world.exe
+```
 
-   ```bash
-   g++ filename.cpp -o program
-   ```
+**Run on Linux/macOS:**
+```bash
+./hello_world
+```
 
-4. Run the compiled program:
+Change the source-file path and output name for the program you want to run.
 
-   - **Windows:**
-     ```bash
-     program.exe
-     ```
-   - **Linux/macOS:**
-     ```bash
-     ./program
-     ```
+## Code conventions
 
-Replace `filename.cpp` with the name of your source file.
+- Use clear file and folder names.
+- Keep each example focused on one concept.
+- Add comments where they clarify the logic.
+- Prefer standard C++ and portable code.
+- Include sample input/output in a program's notes when useful.
 
-## Tools
-
-- **Language:** C++
-- **Compiler:** GCC / g++
-- **Editors:** Visual Studio Code, Code::Blocks, or any C++-compatible editor
-- **Version Control:** Git and GitHub
-
-## Repository Goals
-
-- Practice writing clean and understandable C++ code.
-- Improve logical thinking and problem-solving.
-- Learn and implement data structures and algorithms.
-- Keep programming exercises and projects organized.
-- Track learning progress over time.
-
-## Author
+## About me
 
 **Muhammad Ali Abid**  
-BS Artificial Intelligence Student
+BS Artificial Intelligence Student · BZU Multan
 
 - GitHub: [@ali-abid-ai](https://github.com/ali-abid-ai)
-- Repository: [cpp-programming](https://github.com/ali-abid-ai/cpp-programming)
+- Portfolio: [ali-abid-ai.github.io/ali-ai-portfolio](https://ali-abid-ai.github.io/ali-ai-portfolio/)
 
 ---
 
-If you find this repository useful, feel free to explore the code and follow along with the learning journey.
-
-**Happy Coding!**
+This is an evolving educational repository. Programs will be added as I learn, test, and understand each topic.
