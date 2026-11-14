@@ -2,70 +2,82 @@
 
 A beginner-friendly learning repository documenting my C++ programming practice as a BS Artificial Intelligence student at Bahauddin Zakariya University (BZU), Multan.
 
-The goal is to strengthen programming fundamentals, problem-solving, Object-Oriented Programming (OOP), Data Structures, and Algorithms through small, readable programs.
+The repository contains small, standalone examples. It is a learning portfolio, not a claim that every C++ or DSA topic is complete.
 
 ## Repository structure
 
 ```text
 cpp-programming/
 ├── basics/
-│   └── hello_world.cpp
+│   ├── hello_world.cpp
+│   ├── input_output.cpp
+│   ├── conditions.cpp
+│   ├── loops.cpp
+│   ├── functions.cpp
+│   └── arrays.cpp
 ├── oop/
 │   └── student_record.cpp
 ├── data-structures/
-│   ├── linked-list/
-│   ├── stacks/
-│   ├── queues/
-│   └── trees/
+│   └── linked-list/
+│       └── singly_linked_list.cpp
 ├── algorithms/
 │   ├── searching/
+│   │   └── linear_binary_search.cpp
 │   └── sorting/
+│       └── bubble_sort.cpp
 └── projects/
 ```
 
-More topic folders and programs will be added as I study and practise them.
+## Included examples
+
+- **Basics:** console input/output, conditions, loops, functions, and arrays.
+- **OOP:** a simple student record class.
+- **Linked list:** create, append, display, and safely clear a singly linked list.
+- **Searching:** linear search and binary search (the sample data is sorted).
+- **Sorting:** bubble sort with an early-exit optimization.
 
 ## Learning roadmap
 
-- [x] Repository setup and C++ learning structure
-- [ ] Variables, data types, operators, and input/output
-- [ ] Conditions, loops, functions, and recursion
-- [ ] Arrays, strings, pointers, and references
-- [ ] Object-Oriented Programming
-- [ ] Linked lists, stacks, queues, and trees
-- [ ] Searching and sorting algorithms
-- [ ] University and personal programming projects
+- [x] Repository setup and topic-wise structure
+- [x] Introductory C++ examples: input/output, conditions, loops, functions, and arrays
+- [x] Introductory OOP example
+- [x] Singly linked list example
+- [x] Linear search, binary search, and bubble sort
+- [ ] More pointer, string, recursion, and file-handling exercises
+- [ ] Stacks, queues, trees, and additional data structures
+- [ ] More sorting algorithms and complexity analysis
+- [ ] University project source code (Bus Reservation and Inventory Management)
 
-The checklist reflects the repository roadmap, not a claim that every topic is already complete.
+The checklist reports what is present in this repository today. Planned topics and projects are not presented as completed work.
 
 ## Compile and run
 
-Install a C++ compiler such as GCC (g++).
+Install a C++17 compiler such as GCC.
 
-**Compile:**
+Example:
 ```bash
-g++ -std=c++17 -Wall -Wextra -pedantic basics/hello_world.cpp -o hello_world
+g++ -std=c++17 -Wall -Wextra -Wpedantic basics/input_output.cpp -o input_output
 ```
 
-**Run on Windows:**
+Run on Windows:
 ```bash
-hello_world.exe
+input_output.exe
 ```
 
-**Run on Linux/macOS:**
+Run on Linux/macOS:
 ```bash
-./hello_world
+./input_output
 ```
 
-Change the source-file path and output name for the program you want to run.
+Change the source path and output name for another program. Each `.cpp` file has its own `main()`, so compile one source file at a time.
 
 ## Code conventions
 
-- Use clear file and folder names.
 - Keep each example focused on one concept.
-- Add comments where they clarify the logic.
-- Prefer standard C++ and portable code.
-- Include sample input/output in a program's notes when useful.
+- Use clear file and folder names.
+- Prefer standard, portable C++.
+- Check input where practical and release dynamically allocated memory.
+- Add explanations and sample output as the repository grows.
 
 ## About me
 
@@ -77,4 +89,4 @@ BS Artificial Intelligence Student · BZU Multan
 
 ---
 
-This is an evolving educational repository. Programs will be added as I learn, test, and understand each topic.
+This is an evolving educational repository. I will add and mark new topics as I study, practise, and test them.
