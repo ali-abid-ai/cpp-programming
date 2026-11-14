@@ -18,13 +18,13 @@ cpp-programming/
 ├── oop/
 │   └── student_record.cpp
 ├── data-structures/
-│   └── linked-list/
-│       └── singly_linked_list.cpp
+│   ├── linked-list/singly_linked_list.cpp
+│   ├── stacks/stack_array.cpp
+│   ├── queues/circular_queue.cpp
+│   └── trees/binary_search_tree.cpp
 ├── algorithms/
-│   ├── searching/
-│   │   └── linear_binary_search.cpp
-│   └── sorting/
-│       └── bubble_sort.cpp
+│   ├── searching/linear_binary_search.cpp
+│   └── sorting/bubble_sort.cpp
 └── projects/
 ```
 
@@ -33,6 +33,9 @@ cpp-programming/
 - **Basics:** console input/output, conditions, loops, functions, and arrays.
 - **OOP:** a simple student record class.
 - **Linked list:** create, append, display, and safely clear a singly linked list.
+- **Stack:** array-backed LIFO operations (push, pop, and peek).
+- **Queue:** circular queue operations (enqueue and dequeue).
+- **Tree:** binary search tree insertion and inorder traversal.
 - **Searching:** linear search and binary search (the sample data is sorted).
 - **Sorting:** bubble sort with an early-exit optimization.
 
@@ -41,10 +44,9 @@ cpp-programming/
 - [x] Repository setup and topic-wise structure
 - [x] Introductory C++ examples: input/output, conditions, loops, functions, and arrays
 - [x] Introductory OOP example
-- [x] Singly linked list example
+- [x] Singly linked list, stack, circular queue, and binary search tree examples
 - [x] Linear search, binary search, and bubble sort
 - [ ] More pointer, string, recursion, and file-handling exercises
-- [ ] Stacks, queues, trees, and additional data structures
 - [ ] More sorting algorithms and complexity analysis
 - [ ] University project source code (Bus Reservation and Inventory Management)
 
